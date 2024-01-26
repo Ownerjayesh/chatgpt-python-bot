@@ -1,16 +1,16 @@
-#Author: Arman Idrisi
+#Author: Jayesh
 
 import telebot
 import openai
 
 
 #Bot Api Token
-API_TOKEN = ''
+API_TOKEN = '6961164075:AAGBD7_0EiikpJ3f4xkOVLSjTWUPbR-eFIg'
 #Openai Api Key
-openai.api_key=""
+openai.api_key="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"
 
 
-bot = telebot.TeleBot(API_TOKEN)
+bot = telebot.TeleBot(6961164075:AAGBD7_0EiikpJ3f4xkOVLSjTWUPbR-eFIg)
 
 #Generate The Response
 def get_response(msg):
